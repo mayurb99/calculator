@@ -12,6 +12,7 @@ pipeline {
         sh 'npm install'
         echo "installing npm"
       }
+    }
 
       stage('Testing') {
         steps {
@@ -29,4 +30,4 @@ pipeline {
     }
   }
 
-}
+
